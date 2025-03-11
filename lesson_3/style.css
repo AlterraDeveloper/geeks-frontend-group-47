@@ -1,0 +1,43 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+
+.container {
+    border: 2px solid gold;
+    border-radius: 15px;
+    width: 50%;
+    height: 40%;
+    background-color: #777;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.container h1{
+    font-size: 7rem;
+    color: gold;
+}
+
+.container .fa-star {
+    font-size: 6rem;
+    cursor: pointer;
+}
+
+.container .fa-star.active{
+    color: gold;
+}
+
+.container .stars {
+    user-select: none;
+}
+
