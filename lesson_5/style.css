@@ -68,6 +68,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
+  gap: 10px;
 }
 
 .note textarea {
@@ -88,7 +89,8 @@ body {
 }
 
 .note__save,
-.note__delete {
+.note__delete,
+.note__copy {
   background: transparent;
   transition: 0.1s ease-in-out;
   border: 1.5px solid #fff;
@@ -99,6 +101,7 @@ body {
   cursor: pointer;
 }
 
+.note__copy:hover,
 .note__save:hover {
   background: #fff;
   border: 1.5px solid #fff;

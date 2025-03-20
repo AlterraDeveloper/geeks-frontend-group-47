@@ -18,7 +18,11 @@
             <button class="note__delete">Remove</button>
           </div>
         </div> -->
-        <div id="note-form" class="note" style="background: rgba(255, 255, 255, 0)">
+        <div
+          id="note-form"
+          class="note"
+          style="background: rgba(255, 255, 255, 0)"
+        >
           <textarea
             cols="10"
             rows="5"
@@ -26,7 +30,8 @@
             maxlength="100"
           ></textarea>
           <div class="note__footer">
-            <span class="label">100 left</span>
+            <!-- <span class="label"><span id="text-counter">100</span> left</span> -->
+            <span class="label" id="text-counter">100 left</span>
             <button id="save-note-btn" class="note__save">Save</button>
           </div>
           <div class="progress-bar">
@@ -39,6 +44,12 @@
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.2.0/uuid.min.js"
       integrity="sha512-X0CJvcClD8EXFn5Oq8BD5lIsznKDfxb0Sf9Wr8MCCTyAEWaAAxr0Jvm3qyofsmN7eSHMZ0PPQGjVKroLAfexrA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
